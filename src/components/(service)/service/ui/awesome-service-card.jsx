@@ -1,0 +1,31 @@
+import Image from "next/image";
+import Link from "next/link";
+
+export default function AwesomeServiceCard({ data, baseRoute = "services" }) {
+    // Use explicit slug from data if set, otherwise generate slug from title
+    const slug = data.slug ? data.slug : data.title.trim().toLowerCase().replace(/&/g, 'and').replace(/\s+/g, '-').replace(/[^\w\-]+/g, '');
+    return (
+        <>
+            <div className="optech-iconbox-wrap style-two">
+                <div className="optech-iconbox-icon">
+                    <Image
+                        height={36}
+                        width={36}
+                        priority
+                        src={data.iconUrl}
+                        alt="icon"
+                    />
+                </div>
+                <div className="optech-iconbox-data">
+                    <h5>{data.title}</h5>
+                    <p>{data.description}</p>
+                    <Link className="optech-icon-btn" href={`/services/${slug}`}>
+                        <i className="icon-show ri-arrow-right-line" />
+                        <span>Learn More</span>
+                        <i className="icon-hide ri-arrow-right-line" />
+                    </Link>
+                </div>
+            </div>
+        </>
+    );
+}
