@@ -9,8 +9,8 @@ export default function FooterMenu5() {
     return (
         <>
             <div className="col-xl-2 offset-xl-1 col-md-4">
-                <div className="optech-footer-menu">
-                    <div className="optech-footer-title">
+                <div className="blaise-footer-menu">
+                    <div className="blaise-footer-title">
                         <h5>Quick Links</h5>
                     </div>
                     <ul>
@@ -25,8 +25,8 @@ export default function FooterMenu5() {
                 </div>
             </div>
             <div className="col-xl-3 col-md-5">
-                <div className="optech-footer-menu">
-                    <div className="optech-footer-title">
+                <div className="blaise-footer-menu">
+                    <div className="blaise-footer-title">
                         <h5>Services</h5>
                     </div>
                     <ul>
@@ -41,8 +41,8 @@ export default function FooterMenu5() {
                 </div>
             </div>
             <div className="col-xl-2 col-md-3">
-                <div className="optech-footer-menu mb-0">
-                    <div className="optech-footer-title">
+                <div className="blaise-footer-menu mb-0">
+                    <div className="blaise-footer-title">
                         <h5>Information</h5>
                     </div>
                     <ul>

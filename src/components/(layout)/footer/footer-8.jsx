@@ -5,9 +5,9 @@ import FooterMenu5 from "./ui/footer-menu-5";
 export default function Footer8() {
     return (
         <>
-            <footer className="optech-footer-section dark-bg">
+            <footer className="blaise-footer-section dark-bg">
                 <div className="container">
-                    <div className="optech-footer-top optech-section-padding">
+                    <div className="blaise-footer-top blaise-section-padding">
                         <div className="row">
                             <div className="col-xl-4 col-lg-12">
                                 {/* footer info start */}

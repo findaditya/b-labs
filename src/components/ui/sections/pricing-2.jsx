@@ -4,9 +4,9 @@ import PricingCard from "../cards/pricing-card-2";
 export default function Pricing2() {
     return (
         <>
-            <div className="section optech-section-padding2">
+            <div className="section blaise-section-padding2">
                 <div className="container">
-                    <div className="optech-section-title center">
+                    <div className="blaise-section-title center">
                         <h2>Effective &amp; flexible pricing</h2>
                     </div>
                     <div className="row">

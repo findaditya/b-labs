@@ -6,9 +6,9 @@ import Link from "next/link";
 export default function CheckoutBox() {
     return (
         <>
-            <div className="section optech-section-padding">
+            <div className="section blaise-section-padding">
                 <div className="container">
-                    <div className="optech-checkout-header">
+                    <div className="blaise-checkout-header">
                         <Image
                             height={20}
                             width={20}

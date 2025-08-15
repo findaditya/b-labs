@@ -11,10 +11,10 @@ import Testimonial from "@/components/ui/sections/testimonial";
 import WorkingProcess from "@/components/ui/sections/working-process";
 
 export const metadata = {
-    title: "Home-8",
+    title: "Home",
 };
 
-export default function Home8() {
+export default function Home() {
     return (
         <>
             <Header8 />

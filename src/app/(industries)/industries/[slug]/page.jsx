@@ -95,7 +95,10 @@ export async function generateStaticParams() {
     }));
 }
 
-export default async function IndustryDetails({ params: { slug } }) {
+export default async function IndustryDetails({ params }) {
+    // ✅ Fix: Await params before destructuring
+    const { slug } = await params;
+    
     const industry = industries.find((industry) => industry.slug === slug);
 
     if (!industry) {
@@ -119,7 +122,7 @@ export default async function IndustryDetails({ params: { slug } }) {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6">
-                            <div className="optech-thumb extra-mr">
+                            <div className="blaise-thumb extra-mr">
                                 <Image
                                     height="0"
                                     width="0"
@@ -132,7 +135,7 @@ export default async function IndustryDetails({ params: { slug } }) {
                                     className="h-auto w-100"
                                 />
                                 <div
-                                    className="optech-thumb-position"
+                                    className="blaise-thumb-position"
                                     data-aos="fade-up"
                                     data-aos-duration={800}
                                 >
@@ -147,10 +150,10 @@ export default async function IndustryDetails({ params: { slug } }) {
                             </div>
                         </div>
                         <div className="col-lg-6 d-flex align-items-center">
-                            <div className="optech-default-content ml40">
+                            <div className="blaise-default-content ml40">
                                 <h2>{industry.title} Solutions</h2>
                                 <p>{industry.overview}</p>
-                                <div className="optech-icon-list">
+                                <div className="blaise-icon-list">
                                     <ul>
                                         {industry.features.split(", ").map((feature, index) => (
                                             <li key={index}>
@@ -165,11 +168,11 @@ export default async function IndustryDetails({ params: { slug } }) {
                 </div>
             </div>
             <div className="container">
-                <div className="optech-divider" />
+                <div className="blaise-divider" />
             </div>
 
             {/* Portfolio Section */}
-            <div className="section optech-section-padding">
+            <div className="section blaise-section-padding">
                 <div className="container">
                     <PortfolioMasonryItem 
                         data={industry.projects} 
@@ -179,30 +182,30 @@ export default async function IndustryDetails({ params: { slug } }) {
                 </div>
             </div>
             <div className="container">
-                <div className="optech-divider" />
+                <div className="blaise-divider" />
             </div>
 
             {/* Achievements Section */}
             <Achievement2 />
             <div className="container">
-                <div className="optech-divider" />
+                <div className="blaise-divider" />
             </div>
 
             {/* Work Together Section */}
             <WorkTogether2 />
             <div className="container">
-                <div className="optech-divider" />
+                <div className="blaise-divider" />
             </div>
 
             {/* Contact Form Section */}
-            <div className="section optech-section-padding">
+            <div className="section blaise-section-padding">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6">
-                            <div className="optech-default-content">
+                            <div className="blaise-default-content">
                                 <h2>Get in Touch</h2>
                                 <p>Have questions about our {industry.title.toLowerCase()} solutions? Our team is ready to help you transform your business.</p>
-                                <div className="optech-icon-list">
+                                <div className="blaise-icon-list">
                                     <ul>
                                         {industry.solutions.split(", ").map((solution, index) => (
                                             <li key={index}>
@@ -220,7 +223,7 @@ export default async function IndustryDetails({ params: { slug } }) {
                 </div>
             </div>
             <div className="container">
-                <div className="optech-divider" />
+                <div className="blaise-divider" />
             </div>
 
             <Footer8 />
@@ -228,7 +231,10 @@ export default async function IndustryDetails({ params: { slug } }) {
     );
 }
 
-export async function generateMetadata({ params: { slug } }) {
+export async function generateMetadata({ params }) {
+    // ✅ Fix: Await params before destructuring
+    const { slug } = await params;
+    
     const industry = industries.find((industry) => industry.slug === slug);
 
     if (!industry) {

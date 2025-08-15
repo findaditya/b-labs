@@ -3,8 +3,8 @@ export default function Copyright3() {
 
     return (
         <>
-            <div className="optech-footer-bottom center">
-                <div className="optech-copywright">
+            <div className="blaise-footer-bottom center">
+                <div className="blaise-copywright">
                     <p> Copyright © {date} Blaise Labs. All rights reserved.</p>
                 </div>
             </div>

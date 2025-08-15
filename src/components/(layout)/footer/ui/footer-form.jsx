@@ -43,12 +43,12 @@ export default memo(function FooterForm() {
 
     return (
         <>
-            <div className="optech-footer-form-section">
+            <div className="blaise-footer-form-section">
                 <div className="container">
-                    <div className="optech-footer-form-wrap">
+                    <div className="blaise-footer-form-wrap">
                         <div className="row">
                             <div className="col-lg-7">
-                                <div className="optech-footer-form">
+                                <div className="blaise-footer-form">
                                     <h4>Fill The Contact Form</h4>
                                     <p>
                                         Get Free Consultation For IT Solutions
@@ -56,7 +56,7 @@ export default memo(function FooterForm() {
                                     <form onSubmit={handleSubmit(onSubmit)}>
                                         <div className="row">
                                             <div className="col-lg-6">
-                                                <div className="optech-main-field">
+                                                <div className="blaise-main-field">
                                                     <input
                                                         {...register("name", {
                                                             required: true,
@@ -73,7 +73,7 @@ export default memo(function FooterForm() {
                                                 </div>
                                             </div>
                                             <div className="col-lg-6">
-                                                <div className="optech-main-field">
+                                                <div className="blaise-main-field">
                                                     <input
                                                         {...register("phone", {
                                                             required: true,
@@ -100,7 +100,7 @@ export default memo(function FooterForm() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="optech-main-field">
+                                        <div className="blaise-main-field">
                                             <input
                                                 {...register("email", {
                                                     required: true,
@@ -122,7 +122,7 @@ export default memo(function FooterForm() {
                                                 </span>
                                             )}
                                         </div>
-                                        <div className="optech-main-field">
+                                        <div className="blaise-main-field">
                                             <textarea
                                                 {...register("message", {
                                                     required: true,
@@ -136,7 +136,7 @@ export default memo(function FooterForm() {
                                             )}
                                         </div>
                                         <button
-                                            id="optech-main-form-btn"
+                                            id="blaise-main-form-btn"
                                             type="submit"
                                             data-text="Send Message"
                                         >
@@ -164,7 +164,7 @@ export default memo(function FooterForm() {
                                     >
                                         <Marker
                                             position={center}
-                                            title="Optech"
+                                            title="Blaise"
                                         />
                                     </GoogleMap>
                                 ) : (

@@ -4,9 +4,9 @@ import { teamExpert1 } from "@/data/data";
 export default function ExpertTeam() {
     return (
         <>
-            <div className="section optech-section-padding2">
+            <div className="section blaise-section-padding2">
                 <div className="container">
-                    <div className="optech-section-title center">
+                    <div className="blaise-section-title center">
                         <h2>Our expert team is always ready to help you</h2>
                     </div>
                     <div className="row">

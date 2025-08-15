@@ -3,9 +3,9 @@
 export default function ShopInfoTab() {
     return (
         <>
-            <div className="section optech-section-padding">
+            <div className="section blaise-section-padding">
                 <div className="container">
-                    <div className="optech-product-tab">
+                    <div className="blaise-product-tab">
                         <ul
                             className="nav nav-pills"
                             id="pills-tab"

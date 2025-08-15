@@ -36,8 +36,8 @@ export default function Preloader() {
     return (
         <>
             {showPreloader && (
-                <div className="optech-preloader-wrap">
-                    <div className="optech-preloader">
+                <div className="blaise-preloader-wrap">
+                    <div className="blaise-preloader">
                         <div />
                         <div />
                         <div />

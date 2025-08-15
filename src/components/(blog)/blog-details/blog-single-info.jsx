@@ -8,12 +8,12 @@ import BlogCommentForm from "./ui/blog-comment-form";
 export default function BlogSingleInfo() {
     return (
         <>
-            <div className="section optech-section-padding">
+            <div className="section blaise-section-padding">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-8">
                             <div
-                                className="optech-blog-thumb single-blog"
+                                className="blaise-blog-thumb single-blog"
                                 data-aos="fade-up"
                                 data-aos-duration={800}
                             >
@@ -26,8 +26,8 @@ export default function BlogSingleInfo() {
                                     alt="blog"
                                 />
                             </div>
-                            <div className="optech-single-post-content-wrap">
-                                <div className="optech-single-post-meta">
+                            <div className="blaise-single-post-content-wrap">
+                                <div className="blaise-single-post-meta">
                                     <ul>
                                         <li>
                                             <Link href="/">
@@ -73,7 +73,7 @@ export default function BlogSingleInfo() {
                                         models, job security and prospects,
                                         impact on staffing
                                     </p>
-                                    <div className="optech-single-thumb">
+                                    <div className="blaise-single-thumb">
                                         <div className="row">
                                             <div
                                                 className="col-lg-6"
@@ -152,8 +152,8 @@ export default function BlogSingleInfo() {
                                         subjects arising from the COVID-19
                                         pandemic
                                     </p>
-                                    <div className="optech-single-post-tag-wrap">
-                                        <div className="optech-blog-tags">
+                                    <div className="blaise-single-post-tag-wrap">
+                                        <div className="blaise-blog-tags">
                                             <ul>
                                                 <li>
                                                     <Link href="/">
@@ -178,7 +178,7 @@ export default function BlogSingleInfo() {
                                             </ul>
                                         </div>
                                     </div>
-                                    <div className="optech-post-navigation">
+                                    <div className="blaise-post-navigation">
                                         <Link
                                             className="nav-previous"
                                             href="/blog-details"

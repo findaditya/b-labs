@@ -5,9 +5,9 @@ import Link from "next/link";
 export default function RecentBlog() {
     return (
         <>
-            <div className="section optech-section-padding">
+            <div className="section blaise-section-padding">
                 <div className="container">
-                    <div className="optech-section-title center">
+                    <div className="blaise-section-title center">
                         <h2>Recent blog &amp; articles about technology</h2>
                     </div>
                     <div className="row">
@@ -24,9 +24,9 @@ export default function RecentBlog() {
                         ))}
                         {/* recent blog end */}
                     </div>
-                    <div className="optech-center-btn">
+                    <div className="blaise-center-btn">
                         <Link
-                            className="optech-default-btn"
+                            className="blaise-default-btn"
                             href="/blog"
                             data-text="View All Posts"
                         >

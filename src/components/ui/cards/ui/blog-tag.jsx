@@ -4,9 +4,9 @@ import Link from "next/link";
 export default function BlogTag() {
     return (
         <>
-            <div className="optech-blog-widgets">
+            <div className="blaise-blog-widgets">
                 <h5>Tags</h5>
-                <div className="optech-blog-tags">
+                <div className="blaise-blog-tags">
                     <ul>
                         {/* blog tag start */}
                         {blogTag?.map((item, i) => (

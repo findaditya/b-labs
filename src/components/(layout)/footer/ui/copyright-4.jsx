@@ -24,17 +24,17 @@ export default function Copyright4() {
 
     return (
         <>
-            <div className="optech-footer-bottom">
+            <div className="blaise-footer-bottom">
                 <div className="row">
                     <div className="col-lg-6 d-flex align-items-center">
-                        <div className="optech-copywright dark-color">
+                        <div className="blaise-copywright dark-color">
                             <p>
                                 Copyright © {date} Blaise Labs. All rights reserved.
                             </p>
                         </div>
                     </div>
                     <div className="col-lg-6">
-                        <div className="optech-social-icon-box right-align style-two">
+                        <div className="blaise-social-icon-box right-align style-two">
                             <ul>
                                 {social?.map((item, i) => (
                                     <li key={i}>

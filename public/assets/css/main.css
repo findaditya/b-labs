@@ -362,13 +362,13 @@
 .light-color .site-menu-main .nav-link-item {
     color: var(--white-color);
 }
-.optech-header2 .site-menu-main .nav-link-item {
+.blaise-header2 .site-menu-main .nav-link-item {
     color: var(--heading-color2);
 }
-.optech-header4 .site-menu-main .nav-link-item {
+.blaise-header4 .site-menu-main .nav-link-item {
     color: var(--heading-color3);
 }
-.optech-header5 .site-menu-main .nav-link-item {
+.blaise-header5 .site-menu-main .nav-link-item {
     color: var(--light-color4);
 }
 

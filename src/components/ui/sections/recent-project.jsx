@@ -41,15 +41,15 @@ export default function RecentProject() {
 
     return (
         <>
-            <div className="section optech-section-padding bg-light1">
+            <div className="section blaise-section-padding bg-light1">
                 <div className="container">
-                    <div className="optech-section-title center">
+                    <div className="blaise-section-title center">
                         <h2>Explore our recent projects</h2>
                     </div>
                 </div>
                 <Slider
                     {...settings}
-                    className="optech-3column-slider"
+                    className="blaise-3column-slider"
                     data-aos="fade-up"
                     data-aos-duration={800}
                 >

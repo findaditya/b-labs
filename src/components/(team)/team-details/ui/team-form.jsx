@@ -14,13 +14,13 @@ export default function TeamForm() {
 
     return (
         <>
-            <div className="optech-main-form p-0">
+            <div className="blaise-main-form p-0">
                 <h3>Fill The Contact Form</h3>
                 <p>Feel free to contact with us, we don’t spam your email</p>
                 <form onSubmit={handleSubmit(onSubmit)}>
                     <div className="row">
                         <div className="col-lg-6">
-                            <div className="optech-main-field">
+                            <div className="blaise-main-field">
                                 <input
                                     type="text"
                                     {...register("name", {
@@ -34,7 +34,7 @@ export default function TeamForm() {
                             </div>
                         </div>
                         <div className="col-lg-6">
-                            <div className="optech-main-field">
+                            <div className="blaise-main-field">
                                 <input
                                     {...register("phone", {
                                         required: true,
@@ -52,7 +52,7 @@ export default function TeamForm() {
                             </div>
                         </div>
                         <div className="col-lg-12">
-                            <div className="optech-main-field">
+                            <div className="blaise-main-field">
                                 <input
                                     {...register("email", {
                                         required: true,
@@ -70,7 +70,7 @@ export default function TeamForm() {
                             </div>
                         </div>
                         <div className="col-lg-12">
-                            <div className="optech-main-field">
+                            <div className="blaise-main-field">
                                 <textarea
                                     {...register("message", {
                                         required: true,
@@ -84,7 +84,7 @@ export default function TeamForm() {
                         </div>
                         <div className="col-lg-12">
                             <button
-                                id="optech-team-form-btn"
+                                id="blaise-team-form-btn"
                                 type="submit"
                                 data-text="Send Message"
                             >

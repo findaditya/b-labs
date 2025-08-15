@@ -4,9 +4,9 @@ import Link from "next/link";
 export default function BlogCategory() {
     return (
         <>
-            <div className="optech-blog-widgets">
+            <div className="blaise-blog-widgets">
                 <h5>Categories</h5>
-                <div className="optech-blog-categorie">
+                <div className="blaise-blog-categorie">
                     <ul>
                         {blogCategory?.map((item, i) => (
                             <li key={i}>

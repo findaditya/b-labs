@@ -9,7 +9,7 @@ export default function Feature() {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6 order-lg-2">
-                            <div className="optech-thumb extra-ml">
+                            <div className="blaise-thumb extra-ml">
                                 <Image
                                     height="0"
                                     width="0"
@@ -22,7 +22,7 @@ export default function Feature() {
                                     className="h-auto w-100"
                                 />
                                 <div
-                                    className="optech-thumb-position2"
+                                    className="blaise-thumb-position2"
                                     data-aos="fade-up"
                                     data-aos-duration={800}
                                 >
@@ -35,7 +35,7 @@ export default function Feature() {
                                         className="h-auto w-100"
                                     />
                                 </div>
-                                <div className="optech-shape3">
+                                <div className="blaise-shape3">
                                     <Image
                                         height={200}
                                         width={133}
@@ -44,7 +44,7 @@ export default function Feature() {
                                         alt="shape"
                                     />
                                 </div>
-                                <div className="optech-shape4">
+                                <div className="blaise-shape4">
                                     <Image
                                         height={107}
                                         width={104}
@@ -56,12 +56,12 @@ export default function Feature() {
                             </div>
                         </div>
                         <div className="col-lg-6 d-flex align-items-center">
-                            <div className="optech-default-content mr40">
+                            <div className="blaise-default-content mr40">
                                 <h2>
                                     Providing IT solutions &amp; services for
                                     startups
                                 </h2>
-                                <div className="optech-extra-mt">
+                                <div className="blaise-extra-mt">
                                     {/* feature card start */}
                                     {features2?.map((item, i) => (
                                         <FeatureCard key={i} data={item} />

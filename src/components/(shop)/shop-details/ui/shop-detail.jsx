@@ -34,7 +34,7 @@ export default function ShopDetail({ paramId }) {
 
     return (
         <>
-            <div className="optech-details-content">
+            <div className="blaise-details-content">
                 <h2>{product.title}</h2>
                 <h6>${product.price.toFixed(2)}</h6>
                 <p>
@@ -42,11 +42,11 @@ export default function ShopDetail({ paramId }) {
                     technological advancement, and partners in your success. As
                     a dynamic and forward-thinking organization
                 </p>
-                <div className="optech-product-wrap">
-                    <div className="optech-product-number">
+                <div className="blaise-product-wrap">
+                    <div className="blaise-product-number">
                         <span
                             onClick={decHandler}
-                            className="optech-product-minus"
+                            className="blaise-product-minus"
                         >
                             <i className="ri-subtract-line" />
                         </span>
@@ -57,13 +57,13 @@ export default function ShopDetail({ paramId }) {
                         />
                         <span
                             onClick={incHandler}
-                            className="optech-product-plus"
+                            className="blaise-product-plus"
                         >
                             <i className="ri-add-line" />
                         </span>
                     </div>
                     <Link
-                        className="optech-product-btn"
+                        className="blaise-product-btn"
                         href="#"
                         data-text="Add to Cart"
                         onClick={(e) => addCartHandler(e)}
@@ -71,7 +71,7 @@ export default function ShopDetail({ paramId }) {
                         <span className="btn-wraper">Add to Cart</span>
                     </Link>
                 </div>
-                <div className="optech-product-info">
+                <div className="blaise-product-info">
                     <h5>Quick info</h5>
                     <ul>
                         <li>

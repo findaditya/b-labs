@@ -4,7 +4,7 @@ import { teamExpert1 } from "@/data/data";
 export default function TeamItems() {
     return (
         <>
-            <div className="section optech-section-padding2">
+            <div className="section blaise-section-padding2">
                 <div className="container">
                     <div className="row">
                         {/* team card start */}

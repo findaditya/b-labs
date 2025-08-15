@@ -4,10 +4,10 @@ import AchievementCard from "../cards/achievement-card";
 export default function Achievement() {
     return (
         <>
-            <div className="section optech-section-padding-bottom">
+            <div className="section blaise-section-padding-bottom">
                 <div className="container">
                     <div
-                        className="optech-counter-wrap"
+                        className="blaise-counter-wrap"
                         style={{
                             backgroundImage:
                                 'url("/assets/images/v2/counter-bg.png")',

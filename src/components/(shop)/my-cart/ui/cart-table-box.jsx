@@ -36,7 +36,7 @@ export default function CartTableBox({ data, index }) {
         <>
             <tr data-aos="fade-up" data-aos-duration={800 + index * 100}>
                 <td>
-                    <div className="optech-cart-thumb">
+                    <div className="blaise-cart-thumb">
                         <i onClick={deleteHandler} className="ri-close-line" />
                         <Image
                             height="0"
@@ -50,10 +50,10 @@ export default function CartTableBox({ data, index }) {
                 </td>
                 <td>${(data.price * (data.qty || 1)).toFixed(2)}</td>
                 <td>
-                    <div className="optech-product-number">
+                    <div className="blaise-product-number">
                         <span
                             onClick={decQtyHandler}
-                            className="optech-product-minus"
+                            className="blaise-product-minus"
                         >
                             <i className="ri-subtract-line" />
                         </span>
@@ -65,7 +65,7 @@ export default function CartTableBox({ data, index }) {
                         />
                         <span
                             onClick={incQtyHandler}
-                            className="optech-product-plus"
+                            className="blaise-product-plus"
                         >
                             <i className="ri-add-line" />
                         </span>

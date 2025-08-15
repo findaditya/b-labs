@@ -16,14 +16,14 @@ export default function Header6() {
     return (
         <>
             <header
-                className={`site-header optech-header-section ${
+                className={`site-header blaise-header-section ${
                     isSticky ? "sticky-menu" : ""
                 }`}
             >
                 {/* top bar start */}
                 <TopBar6 />
                 {/* top bar end */}
-                <div className="optech-header-bottom bg-white">
+                <div className="blaise-header-bottom bg-white">
                     <div className="container">
                         <nav className="navbar site-navbar">
                             {/* Brand Logo*/}
@@ -50,15 +50,15 @@ export default function Header6() {
                                 </nav>
                             </div>
                             <div className="header-btn header-btn-l1 ms-auto d-none d-xs-inline-flex">
-                                <div className="optech-header-icon">
+                                <div className="blaise-header-icon">
                                     <div
                                         onClick={() => setSearchBarOpen(true)}
-                                        className="optech-header-search"
+                                        className="blaise-header-search"
                                     >
                                         <i className="ri-search-line" />
                                     </div>
                                     <Link
-                                        className="optech-default-btn optech-header-btn"
+                                        className="blaise-default-btn blaise-header-btn"
                                         href="/contact"
                                         data-text="Get in Touch"
                                     >

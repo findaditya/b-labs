@@ -10,7 +10,7 @@ const PrevArrow = (props) => {
     const { onClick } = props;
 
     return (
-        <button className="slide-arrow optech-t-next" onClick={onClick}>
+        <button className="slide-arrow blaise-t-next" onClick={onClick}>
             <i className="ri-arrow-left-s-line"></i>
         </button>
     );
@@ -21,7 +21,7 @@ const NextArrow = (props) => {
     const { onClick } = props;
 
     return (
-        <button className="slide-arrow optech-t-prev" onClick={onClick}>
+        <button className="slide-arrow blaise-t-prev" onClick={onClick}>
             <i className="ri-arrow-right-s-line"></i>
         </button>
     );
@@ -42,9 +42,9 @@ export default function Testimonial() {
 
     return (
         <>
-            <div className="section optech-section-padding dark-bg">
+            <div className="section blaise-section-padding dark-bg">
                 <div className="container">
-                    <Slider {...settings} className="optech-1column-slider">
+                    <Slider {...settings} className="blaise-1column-slider">
                         {/* testimonial card start */}
                         {testimonial1?.map((item, i) => (
                             <div key={i}>

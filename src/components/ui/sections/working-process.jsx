@@ -5,9 +5,9 @@ import WorkingProcessCard from "@/components/ui/cards/working-process-card";
 export default function WorkingProcess() {
     return (
         <>
-            <div className="section optech-section-padding5">
+            <div className="section blaise-section-padding5">
                 <div className="container">
-                    <div className="optech-section-title center">
+                    <div className="blaise-section-title center">
                         <h2>
                             Our working process on how to grow your business
                         </h2>
@@ -28,7 +28,7 @@ export default function WorkingProcess() {
                         ))}
                         {/* working process end */}
 
-                        <div className="optech-line">
+                        <div className="blaise-line">
                             <Image
                                 height="0"
                                 width="0"

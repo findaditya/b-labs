@@ -3,10 +3,10 @@ import Link from "next/link";
 export default function TopBar8() {
     return (
         <>
-            <div className="optech-header-top dark-bg3">
+            <div className="blaise-header-top dark-bg3">
                 <div className="container">
-                    <div className="optech-header-info-wrap">
-                        <div className="optech-header-info ">
+                    <div className="blaise-header-info-wrap">
+                        <div className="blaise-header-info ">
                             <ul>
                                 <li>
                                     <i className="ri-map-pin-2-fill" />
@@ -14,7 +14,7 @@ export default function TopBar8() {
                                 </li>
                             </ul>
                         </div>
-                        <div className="optech-header-info ">
+                        <div className="blaise-header-info ">
                             <ul>
                                 <li>
                                     <Link href="tel:123">

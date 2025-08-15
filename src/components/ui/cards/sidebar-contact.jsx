@@ -5,14 +5,14 @@ export default function SidebarContact() {
     return (
         <>
             <div
-                className="optech-service-contact"
+                className="blaise-service-contact"
                 data-aos="fade-up"
                 data-aos-duration={800}
                 style={{
                     backgroundImage: "url(/assets/images/service/bg.png)",
                 }}
             >
-                <div className="optech-service-contact-icon">
+                <div className="blaise-service-contact-icon">
                     <Image
                         height={49}
                         width={49}
@@ -26,7 +26,7 @@ export default function SidebarContact() {
                     At our IT solution company, we are committed to exceptional
                 </p>
                 <Link
-                    className="optech-default-btn"
+                    className="blaise-default-btn"
                     data-text="Get in Touch"
                     href="/contact"
                 >

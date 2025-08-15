@@ -23,7 +23,7 @@ const social = [
 export default function FooterInfo4() {
     return (
         <>
-            <div className="optech-footer-textarea light-color">
+            <div className="blaise-footer-textarea light-color">
                 {/* <Link href="/">
                     <Image
                         height={36}
@@ -43,7 +43,7 @@ export default function FooterInfo4() {
                     customize almost anything in the appearance of your website
                     with only a few
                 </p>
-                <div className="optech-social-icon-box">
+                <div className="blaise-social-icon-box">
                     <ul>
                         {social?.map((item, i) => (
                             <li key={i}>

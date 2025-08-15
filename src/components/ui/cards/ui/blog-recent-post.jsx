@@ -4,7 +4,7 @@ import BlogRcentCard from "./blog-rcent-card";
 export default function BlogRecentPost() {
     return (
         <>
-            <div className="optech-blog-widgets">
+            <div className="blaise-blog-widgets">
                 <h5>Recent Posts</h5>
 
                 {/* blog recent card start */}

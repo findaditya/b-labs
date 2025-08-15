@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function FooterContact1() {
     return (
         <>
-            <div className="optech-infobox-wrap extra-padding">
+            <div className="blaise-infobox-wrap extra-padding">
                 <div className="row">
                     <div
                         className="col-xl-4 col-md-6"
@@ -11,11 +11,11 @@ export default function FooterContact1() {
                         data-aos-duration={500}
                     >
                         <Link href="tel:123">
-                            <div className="optech-infobox-item">
-                                <div className="optech-infobox-icon">
+                            <div className="blaise-infobox-item">
+                                <div className="blaise-infobox-icon">
                                     <i className="ri-phone-fill" />
                                 </div>
-                                <div className="optech-infobox-data">
+                                <div className="blaise-infobox-data">
                                     <p>Call anytime</p>
                                     <h5>518-564-3200</h5>
                                 </div>
@@ -28,11 +28,11 @@ export default function FooterContact1() {
                         data-aos-duration={700}
                     >
                         <Link href="mailto:name@email.com">
-                            <div className="optech-infobox-item">
-                                <div className="optech-infobox-icon">
+                            <div className="blaise-infobox-item">
+                                <div className="blaise-infobox-icon">
                                     <i className="ri-mail-fill" />
                                 </div>
-                                <div className="optech-infobox-data">
+                                <div className="blaise-infobox-data">
                                     <p>Email address</p>
                                     <h5>tachup@example.com</h5>
                                 </div>
@@ -44,11 +44,11 @@ export default function FooterContact1() {
                         data-aos="fade-up"
                         data-aos-duration={900}
                     >
-                        <div className="optech-infobox-item">
-                            <div className="optech-infobox-icon">
+                        <div className="blaise-infobox-item">
+                            <div className="blaise-infobox-icon">
                                 <i className="ri-time-fill" />
                             </div>
-                            <div className="optech-infobox-data">
+                            <div className="blaise-infobox-data">
                                 <p>Office Hours</p>
                                 <h5>8:00 AM – 10:00 PM</h5>
                             </div>

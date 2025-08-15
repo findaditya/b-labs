@@ -14,7 +14,7 @@ export default function ContactFormCard() {
     };
     return (
         <>
-            <div className="optech-main-form bg-white ml60">
+            <div className="blaise-main-form bg-white ml60">
                 <h3>Fill The Contact Form</h3>
                 <p>
                     Feel free to contact with us, we don&apos;t spam your email
@@ -22,7 +22,7 @@ export default function ContactFormCard() {
                 <form onSubmit={handleSubmit(onSubmit)}>
                     <div className="row">
                         <div className="col-lg-6">
-                            <div className="optech-main-field">
+                            <div className="blaise-main-field">
                                 <input
                                     type="text"
                                     {...register("name", {
@@ -40,7 +40,7 @@ export default function ContactFormCard() {
                             </div>
                         </div>
                         <div className="col-lg-6">
-                            <div className="optech-main-field">
+                            <div className="blaise-main-field">
                                 <input
                                     type="number"
                                     {...register("number", {
@@ -58,7 +58,7 @@ export default function ContactFormCard() {
                             </div>
                         </div>
                         <div className="col-lg-12">
-                            <div className="optech-main-field">
+                            <div className="blaise-main-field">
                                 <input
                                     type="email"
                                     {...register("email", {
@@ -78,7 +78,7 @@ export default function ContactFormCard() {
                             </div>
                         </div>
                         <div className="col-lg-12">
-                            <div className="optech-main-field">
+                            <div className="blaise-main-field">
                                 <textarea
                                     name="textarea"
                                     {...register("msg", { required: true })}
@@ -91,7 +91,7 @@ export default function ContactFormCard() {
                         </div>
                         <div className="col-lg-12">
                             <button
-                                id="optech-main-form-btn"
+                                id="blaise-main-form-btn"
                                 type="submit"
                                 data-text="Send Message"
                             >

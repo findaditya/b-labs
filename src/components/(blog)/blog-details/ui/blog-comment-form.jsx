@@ -17,13 +17,13 @@ export default function BlogCommentForm() {
 
     return (
         <>
-            <div className="optech-comment-box">
+            <div className="blaise-comment-box">
                 <h3>Leave a comments:</h3>
                 <form onSubmit={handleSubmit(onSubmit)}>
-                    <div className="optech-comment-box-form">
+                    <div className="blaise-comment-box-form">
                         <div className="row">
                             <div className="col-lg-6">
-                                <div className="optech-comment-form">
+                                <div className="blaise-comment-form">
                                     <input
                                         type="text"
                                         placeholder="Your Name*"
@@ -37,7 +37,7 @@ export default function BlogCommentForm() {
                                 </div>
                             </div>
                             <div className="col-lg-6">
-                                <div className="optech-comment-form">
+                                <div className="blaise-comment-form">
                                     <input
                                         type="email"
                                         placeholder="Email Address*"
@@ -55,7 +55,7 @@ export default function BlogCommentForm() {
                                 </div>
                             </div>
                         </div>
-                        <div className="optech-comment-form">
+                        <div className="blaise-comment-form">
                             <textarea
                                 {...register("msg", {
                                     required: true,
@@ -66,7 +66,7 @@ export default function BlogCommentForm() {
                                 <span>This field is required</span>
                             )}
                         </div>
-                        <div className="optech-check">
+                        <div className="blaise-check">
                             <input type="checkbox" id={check} />
                             <label htmlFor={check}>
                                 Save my name, email, and website in this browser
@@ -74,7 +74,7 @@ export default function BlogCommentForm() {
                             </label>
                         </div>
                         <button
-                            id="optech-default-btn"
+                            id="blaise-default-btn"
                             type="submit"
                             data-text="Send Message"
                         >

@@ -4,7 +4,7 @@ import PricingCard2 from "../ui/cards/pricing-card-2";
 export default function Pricing() {
     return (
         <>
-            <div className="section optech-section-padding2">
+            <div className="section blaise-section-padding2">
                 <div className="container">
                     <div className="row">
                         {/* pricing card start */}

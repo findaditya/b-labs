@@ -24,13 +24,13 @@ const social = [
 export default function TeamProfile() {
     return (
         <>
-            <div className="section optech-section-padding">
+            <div className="section blaise-section-padding">
                 <div className="container">
-                    <div className="optech-team-single-wrap">
+                    <div className="blaise-team-single-wrap">
                         <div className="row">
                             <div className="col-lg-5">
                                 <div
-                                    className="optech-team-single-thumb"
+                                    className="blaise-team-single-thumb"
                                     data-aos="fade-up"
                                     data-aos-duration={800}
                                 >
@@ -45,7 +45,7 @@ export default function TeamProfile() {
                                 </div>
                             </div>
                             <div className="col-lg-6 offset-lg-1">
-                                <div className="optech-team-single-content">
+                                <div className="blaise-team-single-content">
                                     <h2>Sophia Rodriguez</h2>
                                     <span>CEO &amp; Founder</span>
                                     <p>
@@ -55,7 +55,7 @@ export default function TeamProfile() {
                                         and accessible so it can be used and
                                         repurposed effectively.
                                     </p>
-                                    <div className="optech-footer-info dark-color">
+                                    <div className="blaise-footer-info dark-color">
                                         <ul>
                                             <li>
                                                 <Link href="tel:123">
@@ -71,8 +71,8 @@ export default function TeamProfile() {
                                             </li>
                                         </ul>
                                     </div>
-                                    <div className="optech-extra-mt">
-                                        <div className="optech-social-icon-box style-two">
+                                    <div className="blaise-extra-mt">
+                                        <div className="blaise-social-icon-box style-two">
                                             <ul>
                                                 {/* social start */}
                                                 {social?.map((item, i) => (

@@ -4,9 +4,9 @@ import Link from "next/link";
 export default function BlogCard({ data }) {
     return (
         <>
-            <div className="optech-blog-wrap">
+            <div className="blaise-blog-wrap">
                 <Link href="/blog-details">
-                    <div className="optech-blog-thumb">
+                    <div className="blaise-blog-thumb">
                         <Image
                             height="0"
                             width="0"
@@ -16,8 +16,8 @@ export default function BlogCard({ data }) {
                         />
                     </div>
                 </Link>
-                <div className="optech-blog-content">
-                    <div className="optech-blog-meta">
+                <div className="blaise-blog-content">
+                    <div className="blaise-blog-meta">
                         <ul>
                             <li>
                                 <Link href="/blog-details">
@@ -33,7 +33,7 @@ export default function BlogCard({ data }) {
                         <h2>{data.title}</h2>
                     </Link>
                     <p>{data.description}</p>
-                    <Link className="optech-icon-btn" href="/blog-details">
+                    <Link className="blaise-icon-btn" href="/blog-details">
                         <i className="icon-show ri-arrow-right-line" />
                         <span>Learn More</span>
                         <i className="icon-hide ri-arrow-right-line" />

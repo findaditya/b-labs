@@ -13,8 +13,8 @@ export default function ShopCard({ data }) {
 
     return (
         <>
-            <div className="optech-shop-wrap">
-                <div className="optech-shop-thumb">
+            <div className="blaise-shop-wrap">
+                <div className="blaise-shop-thumb">
                     <Link href={`/shop-details/${data.id}`}>
                         <Image
                             height="0"
@@ -27,7 +27,7 @@ export default function ShopCard({ data }) {
                         />
                     </Link>
                     <Link
-                        className="optech-shop-btn"
+                        className="blaise-shop-btn"
                         data-text="Add to Cart"
                         href={`/shop-details/${data.id}`}
                         onClick={() => addCartHandler(data)}
@@ -35,12 +35,12 @@ export default function ShopCard({ data }) {
                         <span className="btn-wraper">Add to Cart</span>
                     </Link>
                     {data.oldPrice && (
-                        <Link className="optech-shop-badge" href="/shop">
+                        <Link className="blaise-shop-badge" href="/shop">
                             Sale
                         </Link>
                     )}
                 </div>
-                <div className="optech-shop-data">
+                <div className="blaise-shop-data">
                     <Link href={`/shop-details/${data.id}`}>
                         <h5>{data.title}</h5>
                     </Link>

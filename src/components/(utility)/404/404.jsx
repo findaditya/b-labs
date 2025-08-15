@@ -4,9 +4,9 @@ import Link from "next/link";
 export default function NotFundSection() {
     return (
         <>
-            <div className="optech-errors-section">
+            <div className="blaise-errors-section">
                 <div className="container">
-                    <div className="optech-errors-content">
+                    <div className="blaise-errors-content">
                         <Image
                             height="0"
                             width="0"
@@ -22,12 +22,12 @@ export default function NotFundSection() {
                             visit our homepage.
                         </p>
                         <div
-                            className="optech-extra-mt"
+                            className="blaise-extra-mt"
                             data-aos="fade-up"
                             data-aos-duration={800}
                         >
                             <Link
-                                className="optech-default-btn optech-light-btn"
+                                className="blaise-default-btn blaise-light-btn"
                                 data-text="Ask Any Question"
                                 href="/"
                             >

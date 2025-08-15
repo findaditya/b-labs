@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function ServiceCategory() {
     return (
         <>
-            <div className="optech-service-menu">
+            <div className="blaise-service-menu">
                 <ul>
                     {serviceCategory?.map((item, i) => (
                         <li key={i}>

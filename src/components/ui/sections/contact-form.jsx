@@ -4,11 +4,11 @@ import ContactFormCard from "../cards/contact-form-card";
 export default function ContactForm() {
     return (
         <>
-            <div className="section optech-section-padding bg-light1">
+            <div className="section blaise-section-padding bg-light1">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6 d-flex align-items-center">
-                            <div className="optech-default-content mr40">
+                            <div className="blaise-default-content mr40">
                                 <h2>
                                     Let&apos;s build an awesome project together
                                 </h2>
@@ -19,8 +19,8 @@ export default function ContactForm() {
                                     a few clicks. Each demo built with Teba will
                                     look different.
                                 </p>
-                                <div className="optech-contact-info-column">
-                                    <div className="optech-contact-info">
+                                <div className="blaise-contact-info-column">
+                                    <div className="blaise-contact-info">
                                         <i className="ri-map-pin-2-fill" />
                                         <h5>Address</h5>
                                         <p>
@@ -29,7 +29,7 @@ export default function ContactForm() {
                                             Hawk, NC 279499
                                         </p>
                                     </div>
-                                    <div className="optech-contact-info">
+                                    <div className="blaise-contact-info">
                                         <i className="ri-mail-fill" />
                                         <h5>Contact</h5>
                                         <Link href="mailto:name@email.com">

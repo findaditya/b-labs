@@ -37,15 +37,15 @@ export default function AwesomeService() {
 
     return (
         <>
-            <div className="section optech-section-padding">
+            <div className="section blaise-section-padding">
                 <div className="container">
-                    <div className="optech-section-title center">
+                    <div className="blaise-section-title center">
                         <h2>Our awesome services to give you success</h2>
                     </div>
 
                     <Slider
                         {...settings}
-                        className="optech-4column-slider2"
+                        className="blaise-4column-slider2"
                         data-aos="fade-up"
                         data-aos-duration={800}
                     >

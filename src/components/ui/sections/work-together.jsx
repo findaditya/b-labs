@@ -5,14 +5,14 @@ export default function WorkTogether() {
     return (
         <>
             <div
-                className="section bg-cover optech-section-padding"
+                className="section bg-cover blaise-section-padding"
                 style={{
                     backgroundImage: "url(/assets/images/cta/cta-bg2.png)",
                 }}
             >
                 <div className="container">
-                    <div className="optech-cta-wrap">
-                        <div className="optech-cta-content center">
+                    <div className="blaise-cta-wrap">
+                        <div className="blaise-cta-content center">
                             <h2>Let’s work together</h2>
                             <p>
                                 Each demo built with Teba will look different.
@@ -20,12 +20,12 @@ export default function WorkTogether() {
                                 website with only a few clicks
                             </p>
                             <div
-                                className="optech-extra-mt"
+                                className="blaise-extra-mt"
                                 data-aos="fade-up"
                                 data-aos-duration={800}
                             >
                                 <Link
-                                    className="optech-default-btn"
+                                    className="blaise-default-btn"
                                     href="/contact"
                                     data-text="Let’s Start a Project"
                                 >

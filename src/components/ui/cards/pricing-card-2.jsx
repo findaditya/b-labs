@@ -4,22 +4,22 @@ export default function PricingCard2({ data, index }) {
     return (
         <>
             <div
-                className={`optech-pricing-wrap ${index === 1 ? "active" : ""}`}
+                className={`blaise-pricing-wrap ${index === 1 ? "active" : ""}`}
             >
-                <div className="optech-pricing-header">
+                <div className="blaise-pricing-header">
                     <h4>{data.plan}</h4>
                     <p>
                         Best for Startup business owners who needs website for
                         business.
                     </p>
                 </div>
-                <div className="optech-pricing-price">
+                <div className="blaise-pricing-price">
                     <h2>
                         ${data.price}
                         <span>/{data.period}</span>
                     </h2>
                 </div>
-                <div className="optech-pricing-feature">
+                <div className="blaise-pricing-feature">
                     <ul>
                         <li>
                             <i className="ri-check-line" />
@@ -43,7 +43,7 @@ export default function PricingCard2({ data, index }) {
                         </li>
                     </ul>
                 </div>
-                <Link className="optech-pricing-btn" href="/pricing">
+                <Link className="blaise-pricing-btn" href="/pricing">
                     Select This Plan
                 </Link>
             </div>

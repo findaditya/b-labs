@@ -13,8 +13,8 @@ export default function AwesomeServiceCard({ data }) {
 
     return (
         <>
-            <div className="optech-service-box">
-                <div className="optech-service-thumb">
+            <div className="blaise-service-box">
+                <div className="blaise-service-thumb">
                     <Image
                         height="0"
                         width="0"
@@ -24,8 +24,8 @@ export default function AwesomeServiceCard({ data }) {
                         alt={data.title}
                         className="h-auto w-100"
                     />
-                    <div className="optech-service-data">
-                        <div className="optech-service-icon">
+                    <div className="blaise-service-data">
+                        <div className="blaise-service-icon">
                             <Image
                                 height={36}
                                 width={36}

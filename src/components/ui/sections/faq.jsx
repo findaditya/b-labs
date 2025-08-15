@@ -17,11 +17,11 @@ export default function Faq() {
 
     return (
         <>
-            <div className="section bg-light1 optech-section-padding">
+            <div className="section bg-light1 blaise-section-padding">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-5">
-                            <div className="optech-default-content">
+                            <div className="blaise-default-content">
                                 <h2>Have any questions? here some answers</h2>
                                 <p>
                                     Each demo built with Teba will look
@@ -29,12 +29,12 @@ export default function Faq() {
                                     in the appearance of your website with only
                                 </p>
                                 <div
-                                    className="optech-extra-mt"
+                                    className="blaise-extra-mt"
                                     data-aos="fade-up"
                                     data-aos-duration={800}
                                 >
                                     <Link
-                                        className="optech-default-btn"
+                                        className="blaise-default-btn"
                                         href="/faq"
                                         data-text="Ask Any Question"
                                     >
@@ -46,7 +46,7 @@ export default function Faq() {
                             </div>
                         </div>
                         <div className="col-lg-6 offset-lg-1">
-                            <div className="optech-accordion-wrap init-wrap">
+                            <div className="blaise-accordion-wrap init-wrap">
                                 {/* faq start */}
                                 {faq1?.slice(0, 4).map((item, i) => (
                                     <FaqCollapse

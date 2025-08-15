@@ -59,9 +59,9 @@ export default function IndustriesPage() {
                     { title: "Industries" },
                 ]}
             />
-            <div className="section optech-section-padding">
+            <div className="section blaise-section-padding">
                 <div className="container">
-                    <div className="optech-section-title center">
+                    <div className="blaise-section-title center">
                         <h2>Industries We Serve</h2>
                         <p>Discover how our technology solutions can transform your industry</p>
                     </div>

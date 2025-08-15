@@ -5,7 +5,7 @@ import ShopCard from "@/components/ui/cards/shop-card";
 export default function ShopItems() {
     return (
         <>
-            <div className="section optech-section-padding">
+            <div className="section blaise-section-padding">
                 <div className="container">
                     <div className="row">
                         {/* shop card start */}

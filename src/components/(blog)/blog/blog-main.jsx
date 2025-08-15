@@ -6,7 +6,7 @@ import BlogSidebar from "@/components/ui/sidebar/blog-sidebar";
 export default function BlogMain() {
     return (
         <>
-            <div className="section optech-section-padding">
+            <div className="section blaise-section-padding">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-8">

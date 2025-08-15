@@ -12,14 +12,14 @@ export default function Header8() {
     return (
         <>
             <header
-                className={`site-header optech-header-section site-header--menu-right optech-header-two ${
+                className={`site-header blaise-header-section site-header--menu-right blaise-header-two ${
                     isSticky ? "sticky-menu" : ""
                 }`}
             >
                 {/* top bar start */}
                 <TopBar8 />
                 {/* top bar end */}
-                <div className="optech-header-bottom">
+                <div className="blaise-header-bottom">
                     <div className="container">
                         <nav className="navbar site-navbar">
                             {/* Brand Logo*/}
@@ -57,7 +57,7 @@ export default function Header8() {
                             </div>
                             <div className="header-btn header-btn-l1 ms-auto d-none d-xs-inline-flex">
                                 <Link
-                                    className="optech-default-btn optech-header-btn"
+                                    className="blaise-default-btn blaise-header-btn"
                                     data-text="Get in Touch"
                                     href="/contact"
                                 >

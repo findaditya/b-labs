@@ -33,7 +33,7 @@ export default memo(function ContactMap() {
 
     return (
         <>
-            <div className="optech-map-page">
+            <div className="blaise-map-page">
                 {/* google map start */}
                 {isLoaded ? (
                     <GoogleMap
@@ -48,7 +48,7 @@ export default memo(function ContactMap() {
                             zoomControl: false,
                         }}
                     >
-                        <Marker position={center} title="Optech" />
+                        <Marker position={center} title="Blaise" />
                     </GoogleMap>
                 ) : (
                     <></>

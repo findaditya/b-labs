@@ -6,7 +6,7 @@ export default function PortfolioMasonryItem({ data, title, subtitle, showTitle 
             <div className="section large-padding-tb6 overflow-hidden bg-light1">
                 <div className="container">
                     {showTitle && (
-                        <div className="optech-section-title center">
+                        <div className="blaise-section-title center">
                             <h2>{title}</h2>
                             {subtitle && <p>{subtitle}</p>}
                         </div>

@@ -9,9 +9,9 @@ export default function CartTable() {
 
     return (
         <>
-            <div className="optech-cart-section">
+            <div className="blaise-cart-section">
                 <div className="container">
-                    <div className="optech-cart-list">
+                    <div className="blaise-cart-list">
                         <table>
                             <thead>
                                 <tr>
@@ -34,8 +34,8 @@ export default function CartTable() {
                             </tbody>
                         </table>
                     </div>
-                    <div className="optech-cart-footer">
-                        <div className="optech-cupon-code">
+                    <div className="blaise-cart-footer">
+                        <div className="blaise-cupon-code">
                             <input type="number" placeholder="Coupon code" />
                             <Image
                                 height={17}
@@ -45,7 +45,7 @@ export default function CartTable() {
                             />
                         </div>
                         <Link
-                            className="optech-default-btn optech-light-btn"
+                            className="blaise-default-btn blaise-light-btn"
                             data-aos-duration={800}
                             data-aos="fade-up"
                             data-text="Update Cart"

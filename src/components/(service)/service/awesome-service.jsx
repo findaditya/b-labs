@@ -4,9 +4,9 @@ import AwesomeServiceCard from "./ui/awesome-service-card";
 export default function AwesomeService({ baseRoute = 'service-details' }) {
     return (
         <>
-            <div className="section optech-section-padding2 bg-light1">
+            <div className="section blaise-section-padding2 bg-light1">
                 <div className="container">
-                    <div className="optech-section-title center">
+                    <div className="blaise-section-title center">
                         <h2>Our awesome services to give you success</h2>
                     </div>
                     <div className="row">

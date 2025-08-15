@@ -6,10 +6,10 @@ import SinglePortfolioDetail from "./ui/single-portfolio-detail";
 export default async function SinglePortfolioInfo() {
     return (
         <>
-            <div className="section optech-section-padding">
+            <div className="section blaise-section-padding">
                 <div className="container">
                     <div
-                        className="optech-pd-thumb"
+                        className="blaise-pd-thumb"
                         data-aos="fade-up"
                         data-aos-duration={800}
                     >
@@ -23,11 +23,11 @@ export default async function SinglePortfolioInfo() {
                             className="h-auto w-100"
                         />
                     </div>
-                    <div className="optech-pd-wrap">
+                    <div className="blaise-pd-wrap">
                         <div className="row">
                             <div className="col-xl-8 col-lg-7">
-                                <div className="optech-pd-content-wrap">
-                                    <div className="optech-pd-content-item">
+                                <div className="blaise-pd-content-wrap">
+                                    <div className="blaise-pd-content-item">
                                         <h3>Project overview</h3>
                                         <p>
                                             A content management system helps
@@ -51,7 +51,7 @@ export default async function SinglePortfolioInfo() {
                                             to use.
                                         </p>
                                     </div>
-                                    <div className="optech-pd-content-item">
+                                    <div className="blaise-pd-content-item">
                                         <h3>The challenge of project</h3>
                                         <p>
                                             A content management system (CMS) is
@@ -65,7 +65,7 @@ export default async function SinglePortfolioInfo() {
                                             website.
                                         </p>
                                     </div>
-                                    <div className="optech-pd-content-item">
+                                    <div className="blaise-pd-content-item">
                                         <div className="row">
                                             <div
                                                 className="col-md-6"
@@ -99,7 +99,7 @@ export default async function SinglePortfolioInfo() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="optech-pd-content-item">
+                                    <div className="blaise-pd-content-item">
                                         <p>
                                             CMS provides user-friendly features
                                             for easy editing and is compatible
@@ -111,7 +111,7 @@ export default async function SinglePortfolioInfo() {
                                             to use.
                                         </p>
                                     </div>
-                                    <div className="optech-icon-list">
+                                    <div className="blaise-icon-list">
                                         <ul>
                                             <li>
                                                 <i className="ri-check-line" />
@@ -139,7 +139,7 @@ export default async function SinglePortfolioInfo() {
                                             </li>
                                         </ul>
                                     </div>
-                                    <div className="optech-pd-content-item">
+                                    <div className="blaise-pd-content-item">
                                         <h3>Final results</h3>
                                         <p>
                                             Having a content management system
@@ -155,7 +155,7 @@ export default async function SinglePortfolioInfo() {
                                 </div>
                             </div>
                             <div className="col-xl-4 col-lg-5">
-                                <div className="optech-pd-sidebar-wrap">
+                                <div className="blaise-pd-sidebar-wrap">
                                     {/* sidebar details sart */}
                                     <SinglePortfolioDetail />
                                     {/* sidebar details end */}

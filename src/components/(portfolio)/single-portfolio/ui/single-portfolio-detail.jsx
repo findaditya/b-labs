@@ -22,25 +22,25 @@ const social = [
 export default function SinglePortfolioDetail() {
     return (
         <>
-            <div className="optech-pd-sidebar">
+            <div className="blaise-pd-sidebar">
                 <h5>Project Details</h5>
-                <div className="optech-pd-sidebar-item">
+                <div className="blaise-pd-sidebar-item">
                     <span>Client:</span>
                     <p>Porter Victoria</p>
                 </div>
-                <div className="optech-pd-sidebar-item">
+                <div className="blaise-pd-sidebar-item">
                     <span>Category:</span>
                     <p>Web Development</p>
                 </div>
-                <div className="optech-pd-sidebar-item">
+                <div className="blaise-pd-sidebar-item">
                     <span>Date:</span>
                     <p>20 January, 2023</p>
                 </div>
-                <div className="optech-pd-sidebar-item">
+                <div className="blaise-pd-sidebar-item">
                     <span>Website:</span>
                     <Link href="mailto:name@email.com">example@gmail.com</Link>
                 </div>
-                <div className="optech-social-icon-box">
+                <div className="blaise-social-icon-box">
                     <ul>
                         {social?.map((item, i) => (
                             <li key={i}>

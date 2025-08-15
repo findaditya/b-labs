@@ -5,7 +5,7 @@ import Pagination from "@/components/ui/sections/pagination";
 export default function BlogGridItem() {
     return (
         <>
-            <div className="section optech-section-padding optech-blog-grid">
+            <div className="section blaise-section-padding blaise-blog-grid">
                 <div className="container">
                     <div className="row">
                         {/* recent blog start */}

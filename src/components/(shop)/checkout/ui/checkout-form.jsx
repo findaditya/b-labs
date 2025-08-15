@@ -1,22 +1,22 @@
 export default function CheckoutForm() {
     return (
         <>
-            <div className="optech-checkout-form">
+            <div className="blaise-checkout-form">
                 <h5>Billing Details</h5>
                 <form>
-                    <div className="optech-checkout-field">
+                    <div className="blaise-checkout-field">
                         <label>First name</label>
                         <input type="text" />
                     </div>
-                    <div className="optech-checkout-field">
+                    <div className="blaise-checkout-field">
                         <label>Last name</label>
                         <input type="text" />
                     </div>
-                    <div className="optech-checkout-field">
+                    <div className="blaise-checkout-field">
                         <label>Company name (optional)</label>
                         <input type="text" />
                     </div>
-                    <div className="optech-checkout-field dropdown">
+                    <div className="blaise-checkout-field dropdown">
                         <label>Country / Region</label>
                         <select>
                             <option value="Option 1">Bangladesh</option>
@@ -24,7 +24,7 @@ export default function CheckoutForm() {
                             <option value="Option 3">Pakistan</option>
                         </select>
                     </div>
-                    <div className="optech-checkout-field">
+                    <div className="blaise-checkout-field">
                         <label>Street address</label>
                         <input
                             className="house-number"
@@ -36,11 +36,11 @@ export default function CheckoutForm() {
                             placeholder="Apartment, suite, unit, etc. (optional)"
                         />
                     </div>
-                    <div className="optech-checkout-field">
+                    <div className="blaise-checkout-field">
                         <label>Town / City</label>
                         <input type="text" />
                     </div>
-                    <div className="optech-checkout-field dropdown">
+                    <div className="blaise-checkout-field dropdown">
                         <label>State</label>
                         <select>
                             <option value="Option 1">
@@ -50,19 +50,19 @@ export default function CheckoutForm() {
                             <option value="Option 3">Pakistan</option>
                         </select>
                     </div>
-                    <div className="optech-checkout-field">
+                    <div className="blaise-checkout-field">
                         <label>ZIP Code</label>
                         <input type="text" />
                     </div>
-                    <div className="optech-checkout-field">
+                    <div className="blaise-checkout-field">
                         <label>Phone</label>
                         <input type="number" />
                     </div>
-                    <div className="optech-checkout-field">
+                    <div className="blaise-checkout-field">
                         <label>Email address</label>
                         <input type="email" />
                     </div>
-                    <div className="optech-checkout-field checkout-additional-information">
+                    <div className="blaise-checkout-field checkout-additional-information">
                         <h5>Additional Information</h5>
                         <label>Order notes (optional)</label>
                         <textarea placeholder="Notes about your order, e.g. special notes for delivery." />

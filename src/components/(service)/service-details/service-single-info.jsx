@@ -9,11 +9,11 @@ export default function ServiceSingleInfo({ service }) {
 
     return (
         <>
-            <div className="section optech-section-padding">
+            <div className="section blaise-section-padding">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-8">
-                            <div className="optech-service-details-wrap">
+                            <div className="blaise-service-details-wrap">
                                 <Image
                                     height="0"
                                     width="0"
@@ -24,7 +24,7 @@ export default function ServiceSingleInfo({ service }) {
                                     alt={service.title}
                                     className="h-auto w-100"
                                 />
-                                <div className="optech-service-details-item">
+                                <div className="blaise-service-details-item">
                                     <h3>Overview</h3>
                                     {/* Render overview text. If it contains line breaks, split into paragraphs */}
                                     {service.overview ? (
@@ -35,10 +35,10 @@ export default function ServiceSingleInfo({ service }) {
                                         <p>{service.description || "Default overview text."}</p>
                                     )}
                                 </div>
-                                <div className="optech-service-details-item">
+                                <div className="blaise-service-details-item">
                                     <h3>Features</h3>
                                     {service.features && featureList.length > 0 ? (
-                                        <div className="optech-icon-list">
+                                        <div className="blaise-icon-list">
                                             <ul>
                                                 {featureList.map((feature, index) => (
                                                     <li key={index}>
@@ -51,7 +51,7 @@ export default function ServiceSingleInfo({ service }) {
                                         <p>Default features text.</p>
                                     )}
                                 </div>
-                                <div className="optech-service-details-item">
+                                <div className="blaise-service-details-item">
                                     <h3>Goal</h3>
                                     <p>{service.goal || "Default goal text."}</p>
                                 </div>

@@ -63,16 +63,16 @@ export default function ExpertTeam2() {
 
     return (
         <>
-            <div className="section optech-section-padding">
+            <div className="section blaise-section-padding">
                 <div className="container">
-                    <div className="optech-section-title center">
+                    <div className="blaise-section-title center">
                         <h2>Our expert team is always ready to help you</h2>
                     </div>
                 </div>
 
                 <Slider
                     {...setting}
-                    className="optech-4column-slider"
+                    className="blaise-4column-slider"
                     data-aos="fade-up"
                     data-aos-duration={800}
                 >

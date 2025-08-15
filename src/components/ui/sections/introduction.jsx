@@ -7,7 +7,7 @@ export default function Introduction() {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6">
-                            <div className="optech-thumb extra-mr">
+                            <div className="blaise-thumb extra-mr">
                                 <Image
                                     height="0"
                                     width="0"
@@ -20,7 +20,7 @@ export default function Introduction() {
                                     className="h-auto w-100"
                                 />
                                 <div
-                                    className="optech-thumb-position"
+                                    className="blaise-thumb-position"
                                     data-aos="fade-up"
                                     data-aos-duration={800}
                                 >
@@ -33,7 +33,7 @@ export default function Introduction() {
                                         className="h-auto w-100"
                                     />
                                 </div>
-                                <div className="optech-shape1">
+                                <div className="blaise-shape1">
                                     <Image
                                         height={200}
                                         width={133}
@@ -42,7 +42,7 @@ export default function Introduction() {
                                         alt="shape"
                                     />
                                 </div>
-                                <div className="optech-shape2">
+                                <div className="blaise-shape2">
                                     <Image
                                         height={107}
                                         width={104}
@@ -54,7 +54,7 @@ export default function Introduction() {
                             </div>
                         </div>
                         <div className="col-lg-6 d-flex align-items-center">
-                            <div className="optech-default-content ml40">
+                            <div className="blaise-default-content ml40">
                                 <h2>
                                     We provide perfect IT solutions &amp;
                                     technology
@@ -71,10 +71,10 @@ export default function Introduction() {
                                     a few clicks. Each demo built with Teba will
                                     look different.
                                 </p>
-                                <div className="optech-extra-mt">
-                                    <div className="optech-iconbox-column">
-                                        <div className="optech-iconbox-wrap3">
-                                            <div className="optech-iconbox-icon3">
+                                <div className="blaise-extra-mt">
+                                    <div className="blaise-iconbox-column">
+                                        <div className="blaise-iconbox-wrap3">
+                                            <div className="blaise-iconbox-icon3">
                                                 <Image
                                                     height={32}
                                                     width={32}
@@ -82,15 +82,15 @@ export default function Introduction() {
                                                     alt="icon"
                                                 />
                                             </div>
-                                            <div className="optech-iconbox-data3">
+                                            <div className="blaise-iconbox-data3">
                                                 <p>
                                                     Provide Skills <br />
                                                     Services
                                                 </p>
                                             </div>
                                         </div>
-                                        <div className="optech-iconbox-wrap3">
-                                            <div className="optech-iconbox-icon3">
+                                        <div className="blaise-iconbox-wrap3">
+                                            <div className="blaise-iconbox-icon3">
                                                 <Image
                                                     height={32}
                                                     width={32}
@@ -98,7 +98,7 @@ export default function Introduction() {
                                                     alt="icon"
                                                 />
                                             </div>
-                                            <div className="optech-iconbox-data3">
+                                            <div className="blaise-iconbox-data3">
                                                 <p>
                                                     Urgent Support <br /> For
                                                     Clients

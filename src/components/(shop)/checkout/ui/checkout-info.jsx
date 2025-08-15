@@ -11,8 +11,8 @@ export default function CheckoutInfo() {
 
     return (
         <>
-            <div className="optech-checkuot-sidebar-column">
-                <div className="optech-checkuot-sidebar">
+            <div className="blaise-checkuot-sidebar-column">
+                <div className="blaise-checkuot-sidebar">
                     <h5>Your Order</h5>
                     <ul>
                         <li>
@@ -48,7 +48,7 @@ export default function CheckoutInfo() {
                     </p>
                 </div>
                 <Link
-                    className="optech-default-btn shop-order-btn"
+                    className="blaise-default-btn shop-order-btn"
                     href="/shop"
                     data-text="Place Order"
                 >

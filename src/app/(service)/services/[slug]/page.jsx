@@ -16,7 +16,10 @@ export async function generateStaticParams() {
     }));
 }
 
-export default async function ServiceDetails({ params: { slug } }) {
+export default async function ServiceDetails({ params }) {
+    // ✅ Fix: Await params before destructuring
+    const { slug } = await params;
+    
     // Find the service by using explicit slug if available
     const service = awesomeServices2.find(
         (service) => (service.slug ? service.slug : generateSlug(service.title)) === slug
@@ -46,7 +49,10 @@ export default async function ServiceDetails({ params: { slug } }) {
 }
 
 // Generate metadata for SEO
-export async function generateMetadata({ params: { slug } }) {
+export async function generateMetadata({ params }) {
+    // ✅ Fix: Await params before destructuring
+    const { slug } = await params;
+    
     const service = awesomeServices2.find(
         (service) => (service.slug ? service.slug : generateSlug(service.title)) === slug
     );

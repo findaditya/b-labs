@@ -5,8 +5,8 @@ export default function WorkingProcessCard({ data, index }) {
 
     return (
         <>
-            <div className="optech-numberbox-wrap">
-                <div className="optech-numberbox-icon">
+            <div className="blaise-numberbox-wrap">
+                <div className="blaise-numberbox-icon">
                     <Image
                         height={220}
                         width={228}
@@ -15,7 +15,7 @@ export default function WorkingProcessCard({ data, index }) {
                         alt="icon"
                     />
                 </div>
-                <div className="optech-numberbox-data">
+                <div className="blaise-numberbox-data">
                     <span>{number}</span>
                     <h4 dangerouslySetInnerHTML={{ __html: data.title }}></h4>
                     <p>{data.description}</p>

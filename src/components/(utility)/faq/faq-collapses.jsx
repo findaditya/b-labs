@@ -18,8 +18,8 @@ export default function FaqCollapses() {
         <>
             <div className="section accordion-page">
                 <div className="container">
-                    <div className="optech-accordion-column">
-                        <div className="optech-accordion-wrap mt-0 init-wrap">
+                    <div className="blaise-accordion-column">
+                        <div className="blaise-accordion-wrap mt-0 init-wrap">
                             {/* faq start */}
                             {faq1?.slice(0, 6).map((item, i) => (
                                 <FaqCollapse

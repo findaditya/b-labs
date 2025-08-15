@@ -16,7 +16,10 @@ export async function generateStaticParams() {
     }));
 }
 
-export default async function SolutionDetails({ params: { slug } }) {
+export default async function SolutionDetails({ params }) {
+    // ✅ Fix: Await params before destructuring
+    const { slug } = await params;
+
     const solution = awesomeSolutions2.find(
         (solution) => (solution.slug ? solution.slug : generateSlug(solution.title)) === slug
     );
@@ -36,23 +39,23 @@ export default async function SolutionDetails({ params: { slug } }) {
                     { title: solution.title },
                 ]}
             />
-            <div className="section optech-section-padding">
+            <div className="section blaise-section-padding">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-8">
-                            <div className="optech-solution-details-wrap">
+                            <div className="blaise-solution-details-wrap">
                                 <img
                                     src={solution.imgUrl}
                                     alt={solution.title}
                                     className="w-100 rounded-4 mb-5"
                                 />
-                                <div className="optech-solution-details-item">
+                                <div className="blaise-solution-details-item">
                                     <h3>Overview</h3>
                                     <p>{solution.longDescription}</p>
                                 </div>
-                                <div className="optech-solution-details-item">
+                                <div className="blaise-solution-details-item">
                                     <h3>Key Features</h3>
-                                    <ul className="optech-icon-list">
+                                    <ul className="blaise-icon-list">
                                         {solution.features?.split(", ").map((feature, index) => (
                                             <li key={index}>
                                                 <i className="ri-check-line" /> {feature}
@@ -60,10 +63,10 @@ export default async function SolutionDetails({ params: { slug } }) {
                                         ))}
                                     </ul>
                                 </div>
-                                <div className="optech-solution-details-item">
+                                <div className="blaise-solution-details-item">
                                     <h3>Implementation Process</h3>
                                     <p>Our implementation process ensures a smooth transition and successful deployment of the solution.</p>
-                                    <div className="optech-process-steps">
+                                    <div className="blaise-process-steps">
                                         <div className="step">
                                             <span className="step-number">1</span>
                                             <h4>Assessment & Planning</h4>
@@ -95,7 +98,10 @@ export default async function SolutionDetails({ params: { slug } }) {
     );
 }
 
-export async function generateMetadata({ params: { slug } }) {
+export async function generateMetadata({ params }) {
+    // ✅ Fix: Await params before destructuring
+    const { slug } = await params;
+
     const solution = awesomeSolutions2.find(
         (solution) => (solution.slug ? solution.slug : generateSlug(solution.title)) === slug
     );

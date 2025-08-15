@@ -6,7 +6,7 @@ import BlogTag from "@/components/ui/cards/ui/blog-tag";
 export default function BlogSidebar() {
     return (
         <>
-            <div className="optech-blog-sidebar">
+            <div className="blaise-blog-sidebar">
                 {/* blog search start */}
                 <BlogSearch />
                 {/* blog search end */}

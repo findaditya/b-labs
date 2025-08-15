@@ -4,7 +4,7 @@ import { customerSay1 } from "@/data/data";
 export default function TestimonialItems() {
     return (
         <>
-            <div className="section optech-section-padding">
+            <div className="section blaise-section-padding">
                 <div className="container">
                     <div className="row g-4">
                         {/* testimonial card start */}

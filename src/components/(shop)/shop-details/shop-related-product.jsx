@@ -4,9 +4,9 @@ import { shop } from "@/data/data";
 export default function ShopRelatedProduct() {
     return (
         <>
-            <div className="optech-related-product-section">
+            <div className="blaise-related-product-section">
                 <div className="container">
-                    <div className="optech-section-title center">
+                    <div className="blaise-section-title center">
                         <h2>Related products</h2>
                     </div>
                     <div className="row">

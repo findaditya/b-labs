@@ -5,7 +5,7 @@ import { portfolio1 } from "@/data/data";
 export default function PortfolioItem() {
     return (
         <>
-            <div className="section optech-section-padding">
+            <div className="section blaise-section-padding">
                 <div className="container">
                     <div className="row">
                         {/* portfolio card start */}

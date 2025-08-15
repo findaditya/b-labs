@@ -4,7 +4,7 @@ import ShopProductGallery from "./ui/shop-product-gallery";
 export default function ShopInfo({ paramId }) {
     return (
         <>
-            <div className="section optech-section-padding-top">
+            <div className="section blaise-section-padding-top">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6">

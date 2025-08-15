@@ -4,8 +4,8 @@ import Link from "next/link";
 export default function FeatureCard({ data }) {
     return (
         <>
-            <div className="optech-iconbox-wrap2">
-                <div className="optech-iconbox-icon2 bg-white">
+            <div className="blaise-iconbox-wrap2">
+                <div className="blaise-iconbox-icon2 bg-white">
                     <Image
                         height={48}
                         width={48}
@@ -14,7 +14,7 @@ export default function FeatureCard({ data }) {
                         alt="icon"
                     />
                 </div>
-                <div className="optech-iconbox-data2">
+                <div className="blaise-iconbox-data2">
                     <Link href="/contact">
                         <h5>{data.title}</h5>
                     </Link>

@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function BlogPagination() {
     return (
         <>
-            <div className="optech-navigation">
+            <div className="blaise-navigation">
                 <nav className="navigation pagination" aria-label="Posts">
                     <div className="nav-links">
                         <Link className="next page-numbers" href="/blog">

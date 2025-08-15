@@ -5,18 +5,18 @@ export default function FaqCollapse({ data, index, isCollapse, handler }) {
     return (
         <>
             <div
-                className={`optech-accordion-item ${
+                className={`blaise-accordion-item ${
                     isCollapse === index ? "open" : ""
                 }`}
             >
                 <div
                     onClick={() => handler(index)}
-                    className="optech-accordion-header init-header"
+                    className="blaise-accordion-header init-header"
                 >
                     <h5>{data.title}</h5>
                 </div>
                 <Collapse isOpened={isCollapse === index}>
-                    <div className="optech-accordion-body init-body">
+                    <div className="blaise-accordion-body init-body">
                         <p>{data.description}</p>
                     </div>
                 </Collapse>

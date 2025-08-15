@@ -11,22 +11,22 @@ export default function CartTotal() {
 
     return (
         <>
-            <div className="section optech-section-padding-bottom">
+            <div className="section blaise-section-padding-bottom">
                 <div className="container">
-                    <div className="optech-cart-total">
+                    <div className="blaise-cart-total">
                         <h5>Cart Totals</h5>
-                        <div className="optech-cart-total-item">
+                        <div className="blaise-cart-total-item">
                             <p>Subtotal:</p>
                             <p>${totatPrice.toFixed(2)}</p>
                         </div>
-                        <div className="optech-cart-total-item">
+                        <div className="blaise-cart-total-item">
                             <p>Subtotal:</p>
                             <p>
                                 <span>${totatPrice.toFixed(2)}</span>
                             </p>
                         </div>
                         <Link
-                            className="optech-default-btn rt-mt-40"
+                            className="blaise-default-btn rt-mt-40"
                             data-aos-duration={800}
                             data-aos="fade-up"
                             data-text="Proceed to Checkout"

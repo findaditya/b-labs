@@ -6,11 +6,11 @@ export default function AchievementCard2({ data, index }) {
     return (
         <>
             <div
-                className="optech-counter-data3"
+                className="blaise-counter-data3"
                 data-aos="fade-up"
                 data-aos-duration={400 + index * 200}
             >
-                <div className="optech-counter-icon3">
+                <div className="blaise-counter-icon3">
                     <Image
                         height={36}
                         width={36}
@@ -19,8 +19,8 @@ export default function AchievementCard2({ data, index }) {
                         alt="icon"
                     />
                 </div>
-                <div className="optech-counter-right">
-                    <div className="optech-counter-number3">
+                <div className="blaise-counter-right">
+                    <div className="blaise-counter-number3">
                         <CountUp
                             enableScrollSpy={true}
                             scrollSpyOnce={true}

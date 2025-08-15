@@ -27,14 +27,14 @@ export default function SidebarModal() {
 
     return (
         <>
-            <div className="optech-sidemenu-wraper">
+            <div className="blaise-sidemenu-wraper">
                 <div
-                    className={`optech-sidemenu-column ${
+                    className={`blaise-sidemenu-column ${
                         isSidebarOpen ? "active" : ""
                     }`}
                 >
-                    <div className="optech-sidemenu-body">
-                        <div className="optech-sidemenu-logo">
+                    <div className="blaise-sidemenu-body">
+                        <div className="blaise-sidemenu-logo">
                             <Link href="/home-4">
                                 <Image
                                     height={36}
@@ -50,7 +50,7 @@ export default function SidebarModal() {
                             it&rsquo;s too late to develop a set of remote-work
                             policies if you didn&rsquo;t already have one.
                         </p>
-                        <div className="optech-social-icon-box style-two">
+                        <div className="blaise-social-icon-box style-two">
                             <ul>
                                 {social?.map((item, i) => (
                                     <li key={i}>
@@ -61,7 +61,7 @@ export default function SidebarModal() {
                                 ))}
                             </ul>
                         </div>
-                        <div className="optech-sidemenu-thumb">
+                        <div className="blaise-sidemenu-thumb">
                             <Image
                                 height="0"
                                 width="0"
@@ -70,8 +70,8 @@ export default function SidebarModal() {
                                 alt="hero"
                             />
                         </div>
-                        <div className="optech-contact-info-wrap">
-                            <div className="optech-contact-info">
+                        <div className="blaise-contact-info-wrap">
+                            <div className="blaise-contact-info">
                                 <i className="ri-map-pin-2-fill" />
                                 <h5>Address</h5>
                                 <p>
@@ -80,7 +80,7 @@ export default function SidebarModal() {
                                     Hawk, NC 279499
                                 </p>
                             </div>
-                            <div className="optech-contact-info">
+                            <div className="blaise-contact-info">
                                 <i className="ri-mail-fill" />
                                 <h5>Contact</h5>
                                 <Link href="mailto:name@email.com">
@@ -92,7 +92,7 @@ export default function SidebarModal() {
                     </div>
                     <span
                         onClick={() => setSidebarOpen(false)}
-                        className="optech-sidemenu-close"
+                        className="blaise-sidemenu-close"
                     >
                         <i className="ri-close-line" />
                     </span>

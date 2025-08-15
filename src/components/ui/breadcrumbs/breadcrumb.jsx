@@ -4,7 +4,7 @@ export default function Breadcrumb({ title, path = [] }) {
     return (
         <>
             <div
-                className="optech-breadcrumb"
+                className="blaise-breadcrumb"
                 style={{
                     backgroundImage:
                         "url(/assets/images/breadcrumb/breadcrumb.png)",

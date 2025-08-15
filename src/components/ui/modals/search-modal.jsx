@@ -7,12 +7,12 @@ export default function SearchModal() {
     return (
         <>
             <div
-                className={`optech-header-search-section ${
+                className={`blaise-header-search-section ${
                     isSearchBarOpen ? "open" : ""
                 }`}
             >
                 <div className="container">
-                    <div className="optech-header-search-box">
+                    <div className="blaise-header-search-box">
                         <form action="/">
                             <input type="search" placeholder="Search here..." />
                             <button
@@ -30,7 +30,7 @@ export default function SearchModal() {
                     </div>
                 </div>
                 <div
-                    className="optech-header-search-close"
+                    className="blaise-header-search-close"
                     onClick={() => setSearchBarOpen(false)}
                 >
                     <i className="ri-close-line" />
